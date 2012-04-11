@@ -1,0 +1,6 @@
+body.deck-container {
+    background-attachment: fixed;
+    background-image: url(chain.png);
+    background-position: 0 98%;
+    background-repeat: repeat-x;
+}
