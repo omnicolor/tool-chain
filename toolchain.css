@@ -3,4 +3,13 @@ body.deck-container {
     background-image: url(chain.png);
     background-position: 0 98%;
     background-repeat: repeat-x;
+    color: #2c1e1e;
+}
+
+.deck-container.on-slide-0 .slide h1 {
+    font-family: graduate;
+}
+
+.deck-container.on-slide-0 .slide h2 {
+    font-family: graduate;
 }
