@@ -17,6 +17,10 @@ body.deck-container {
     color: #2c1e1e;
 }
 
+.note {
+    display: none;
+}
+
 .big-chain {
     background-image: url(chain.60.png);
     background-repeat: repeat-x;
