@@ -61,3 +61,7 @@ body.deck-container.on-slide-0 {
     top: 331px;
     z-index: 9;
 }
+
+.slide.about-me h1 {
+    color: #235d23;
+}
