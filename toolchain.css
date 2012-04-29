@@ -17,10 +17,47 @@ body.deck-container {
     color: #2c1e1e;
 }
 
+.big-chain {
+    background-image: url(chain.60.png);
+    background-repeat: repeat-x;
+    height: 60px;
+    position: absolute;
+    right: -150px;
+    top: 200px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    width: 700px;
+}
+
+/* Hide the default chain background on the title slide. */
+body.deck-container.on-slide-0 {
+    background-image: none;
+}
+
+.on-slide-0 section {
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+
 .deck-container.on-slide-0 .slide h1 {
+    color: #235d23;
     font-family: graduate;
+    font-size: 150%;
+    height: 35px;
+    position: absolute;
+    right: 119px;
+    top: 300px;
+    z-index: 9;
 }
 
 .deck-container.on-slide-0 .slide h2 {
+    color: #c6d5b0;
     font-family: graduate;
+    font-size: 120%;
+    height: 35px;
+    position: absolute;
+    right: 102px;
+    top: 331px;
+    z-index: 9;
 }
