@@ -88,3 +88,17 @@ body.deck-container.on-slide-0 {
     font-size: 120%;
     height: 72px;
 }
+
+/*
+ * About this talk slide.
+ */
+
+.slide.about-talk div {
+    height: 100%;
+    width: 100%;
+}
+
+.slide.about-talk img {
+    margin-top: 2em;
+    width: 100%;
+}
