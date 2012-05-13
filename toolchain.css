@@ -92,12 +92,6 @@ body.deck-container.on-slide-0 {
 /*
  * About this talk slide.
  */
-
-.slide.about-talk div {
-    height: 100%;
-    width: 100%;
-}
-
 .slide.about-talk img {
     margin-top: 2em;
     width: 100%;
