@@ -98,14 +98,16 @@ body.deck-container.on-slide-0 {
 }
 
 /*
- * Onward slide
+ * Onward and graduation slides.
  */
-.slide.onward div {
+.slide.onward div,
+.slide.graduation div {
     height: 100%;
     text-align: center;
     width: 100%;
 }
 
-.slide.onward img {
+.slide.onward img,
+.slide.graduation img {
     margin-top: 2em;
 }
