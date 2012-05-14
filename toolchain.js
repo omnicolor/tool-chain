@@ -6,6 +6,10 @@ $(function() {
     $(document).bind('deck.change', function(from, to) {
         displayNotes(notes, to);
     });
+    $.extend(true, $.deck.defaults, {
+        hashPrefix: 'slide-',
+        preventFragmentScroll: true
+    });
 });
 
 /**
