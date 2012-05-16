@@ -175,3 +175,36 @@ body.deck-container.on-slide-0 {
     width: 144px;
     z-index: 9;
 }
+
+/*
+ * Don't use source control slide.
+ */
+.no-source-control div {
+    height: 100%;
+    margin: 2em auto;
+    overflow: hidden;
+    position: relative;
+    width: 306px;
+}
+
+.no-source-control img {
+    width: 150px;
+}
+
+#perforce {
+    left: -11px;
+    position: relative;
+    top: -100px;
+    -webkit-transform: rotate(45deg);
+}
+
+#mark {
+    color: #f00;
+    font-size: 2000%;
+    margin-left: -110px;
+    margin-top: -40px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    z-index: 9;
+}
