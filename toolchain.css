@@ -78,6 +78,10 @@ body.deck-container.on-slide-0 {
 /*
  * About me slide.
  */
+.slide.about-me div {
+    margin: 2em auto;
+    width: 600px;
+}
 
 .slide.about-me img {
     float: left;
@@ -87,6 +91,7 @@ body.deck-container.on-slide-0 {
 .slide.about-me .about {
     font-size: 120%;
     height: 72px;
+    margin: 0;
 }
 
 /*
