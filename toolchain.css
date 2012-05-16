@@ -156,3 +156,22 @@ body.deck-container.on-slide-0 {
     color: #235D23;
     margin-left: 54px;
 }
+
+/*
+ * How programming works slide.
+ */
+.programming div {
+    text-align: center;
+    width: 100%;
+}
+
+#blocker {
+    background-color: #ffffff;
+    height: 15px;
+    left: 50%;
+    margin-left: -83px;
+    position: absolute;
+    top: 22px;
+    width: 144px;
+    z-index: 9;
+}
