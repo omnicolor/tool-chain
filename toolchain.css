@@ -246,3 +246,14 @@ body.deck-container.on-slide-0 {
 .hiding img {
     margin: 2em auto;
 }
+
+/*
+ * Embarassed slide.
+ */
+.embearass {
+    text-align: center;
+}
+
+.embearass img {
+    margin: 2em auto;
+}
