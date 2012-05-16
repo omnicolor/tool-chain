@@ -212,3 +212,15 @@ body.deck-container.on-slide-0 {
     top: 0;
     z-index: 9;
 }
+
+/*
+ * No staging slide.
+ */
+.no-staging div {
+    text-align: center;
+    width: 100%;
+}
+
+.no-staging img {
+    margin: 2em auto;
+}
