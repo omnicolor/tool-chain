@@ -235,3 +235,14 @@ body.deck-container.on-slide-0 {
 .no-unit-tests img {
     margin: 2em auto;
 }
+
+/*
+ * Hiding cat slide.
+ */
+.hiding {
+    text-align: center;
+}
+
+.hiding img {
+    margin: 2em auto;
+}
