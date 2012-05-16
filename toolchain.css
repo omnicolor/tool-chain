@@ -9,6 +9,10 @@
  * Yellowish: DFFF6D
  */
 
+* {
+    box-sizing: border-box;
+}
+
 body.deck-container {
     background-attachment: fixed;
     background-image: url(images/chain.png);
