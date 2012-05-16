@@ -224,3 +224,14 @@ body.deck-container.on-slide-0 {
 .no-staging img {
     margin: 2em auto;
 }
+
+/*
+ * No unit tests slide.
+ */
+.no-unit-tests {
+    text-align: center;
+}
+
+.no-unit-tests img {
+    margin: 2em auto;
+}
