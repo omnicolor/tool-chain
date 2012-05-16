@@ -111,3 +111,43 @@ body.deck-container.on-slide-0 {
 .slide.graduation img {
     margin-top: 2em;
 }
+
+/*
+ * In the beginning slide.
+ */
+.beginning {
+    font-family: Chau Philomene One;
+    font-size: 800%;
+}
+
+.beginning div {
+    height: 100%;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+#in {
+    color: #C6D5B0;
+    margin-top: 40px;
+    position: absolute;
+    right: 50%;
+    text-align: right;
+}
+
+#the {
+    color: #DFFF6D;
+    position: absolte;
+    left: 50%;
+    margin-bottom: -31px;
+    margin-left: -33px;
+    text-align: left;
+    top: 54px;
+    width: 200px;
+    -webkit-transform: rotate(90deg);
+}
+
+#beginning {
+    color: #235D23;
+    margin-left: 54px;
+}
