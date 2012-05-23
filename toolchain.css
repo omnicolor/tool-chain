@@ -269,3 +269,14 @@ body.deck-container.on-slide-0 {
 .ninja img {
     margin: 2em auto;
 }
+
+/*
+ * Baby ninja.
+ */
+.baby-ninja {
+    text-align: center;
+}
+
+.baby-ninja img {
+    margin: 2em auto;
+}
