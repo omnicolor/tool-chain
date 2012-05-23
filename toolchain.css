@@ -205,8 +205,9 @@ body.deck-container.on-slide-0 {
 #mark {
     color: #f00;
     font-size: 2000%;
+    height: 390px;
     margin-left: -110px;
-    margin-top: -40px;
+    margin-top: -63px;
     position: absolute;
     left: 50%;
     top: 0;
@@ -255,5 +256,16 @@ body.deck-container.on-slide-0 {
 }
 
 .embearass img {
+    margin: 2em auto;
+}
+
+/*
+ * Ninja slide.
+ */
+.ninja {
+    text-align: center;
+}
+
+.ninja img {
     margin: 2em auto;
 }
