@@ -163,76 +163,79 @@
 
 <section class="slide toolchain-example">
     <div class="container">
-    <div id="toolchain-example-coder">
-        <div class="box" id="toolchain-example-tests">Tests</div>
-        <div class="arrow" id="toolchain-example-test-arrow">
+        <div id="toolchain-example-coder">
+            <div class="box" id="toolchain-example-tests">Tests</div>
+            <div class="arrow" id="toolchain-example-test-arrow">
+                <div class="head">&nbsp;</div>
+                <div class="tail"></div>
+            </div>
+            <div class="box" id="toolchain-example-code">Code</div>
+            <div class="arrow" id="toolchain-example-code-arrow">
+                <div class="head">&nbsp;</div>
+                <div class="tail"></div>
+            </div>
+        </div>
+        <div class="box two-line" id="toolchain-example-scm">Source Control</div>
+        <div class="arrow" id="toolchain-example-scm-arrow">
             <div class="head">&nbsp;</div>
             <div class="tail"></div>
         </div>
-        <div class="box" id="toolchain-example-code">Code</div>
-        <div class="arrow" id="toolchain-example-code-arrow">
+        <div class="box two-line" id="toolchain-example-ci">
+            Continuous Integration
+        </div>
+        <div class="arrow" id="toolchain-example-ci-fail-arrow">
             <div class="head">&nbsp;</div>
             <div class="tail"></div>
         </div>
-    </div>
-    <div class="box two-line" id="toolchain-example-scm">Source Control</div>
-    <div class="arrow" id="toolchain-example-scm-arrow">
-        <div class="head">&nbsp;</div>
-        <div class="tail"></div>
-    </div>
-    <div class="box two-line" id="toolchain-example-ci">
-        Continuous Integration
-    </div>
-    <div class="arrow" id="toolchain-example-ci-fail-arrow">
-        <div class="head">&nbsp;</div>
-        <div class="tail"></div>
-    </div>
-    <div class="arrow" id="toolchain-example-ci-pass-arrow">
-        <div class="head">&nbsp;</div>
-        <div class="tail"></div>
-    </div>
-    <div class="box" id="toolchain-example-red">Fail</div>
-    <div class="arrow" id="toolchain-example-red-arrow">
-        <div class="head">&nbsp;</div>
-        <div class="tail"></div>
-    </div>
-    <div class="box" id="toolchain-example-green">Pass</div>
-    <div class="arrow" id="toolchain-example-green-arrow">
-        <div class="head">&nbsp;</div>
-        <div class="tail"></div>
-    </div>
-    <div class="box" id="toolchain-example-staging">Staging</div>
-    <div class="arrow" id="toolchain-example-staging-fail-arrow">
-        <div class="head">&nbsp;</div>
-        <div class="tail"></div>
-    </div>
-    <div class="arrow" id="toolchain-example-staging-pass-arrow">
-        <div class="head">&nbsp;</div>
-        <div class="tail"></div>
-    </div>
-    <div class="box" id="toolchain-example-production">Production</div>
-    <div class="box" id="toolchain-example-production">Production</div>
-    <div class="note">
-        Here's a typical development layout.
+        <div class="arrow" id="toolchain-example-ci-pass-arrow">
+            <div class="head">&nbsp;</div>
+            <div class="tail"></div>
+        </div>
+        <div class="box" id="toolchain-example-red">Fail</div>
+        <div class="arrow" id="toolchain-example-red-arrow">
+            <div class="head">&nbsp;</div>
+            <div class="tail"></div>
+        </div>
+        <div class="box" id="toolchain-example-green">Pass</div>
+        <div class="arrow" id="toolchain-example-green-arrow">
+            <div class="head">&nbsp;</div>
+            <div class="tail"></div>
+        </div>
+        <div class="box" id="toolchain-example-staging">Staging</div>
+        <div class="arrow" id="toolchain-example-staging-fail-arrow">
+            <div class="head">&nbsp;</div>
+            <div class="tail"></div>
+        </div>
+        <div class="arrow" id="toolchain-example-staging-pass-arrow">
+            <div class="head">&nbsp;</div>
+            <div class="tail"></div>
+        </div>
+        <div class="box" id="toolchain-example-production">Production</div>
+        <div class="box" id="toolchain-example-production">Production</div>
+        <div class="note">
+            Here's a typical development layout.
 
-        <ul>
-            <li>Coders write their tests and code</li>
-            <li>They submit it to their source control</li>
-            <li>Continuous integration sees the changes and does its thing</li>
-            <li>
-                If it fails, it kicks it back to the coders for more testing and
-                coding.
-            </li>
-            <li>
-                If it passes, the new code is uploaded automagically to staging.
-            </li>
-            <li>
-                QA runs on staging and if it blesses the build, pushes it to
-                production.
-            </li>
-        </ul>
+            <ul>
+                <li>Coders write their tests and code</li>
+                <li>They submit it to their source control</li>
+                <li>
+                    Continuous integration sees the changes and does its thing
+                </li>
+                <li>
+                    If it fails, it kicks it back to the coders for more testing
+                    and coding.
+                </li>
+                <li>
+                    If it passes, the new code is uploaded automagically to
+                    staging.
+                </li>
+                <li>
+                    QA runs on staging and if it blesses the build, pushes it to
+                    production.
+                </li>
+            </ul>
+        </div>
     </div>
-</div>
 </section>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
