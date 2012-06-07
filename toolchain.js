@@ -4,7 +4,7 @@ $(function() {
         'menubar=no,toolbar=no,location=no,dependent=yes,height=600,width=600');
 
     $(document).bind('deck.change', function(from, to) {
-        displayNotes(notes, to);
+        displayNotes(notes);
     });
     $.extend(true, $.deck.defaults, {
         hashPrefix: 'slide-',
@@ -15,7 +15,6 @@ $(function() {
 /**
  * Send the speaker notes to the speaker notes window.
  * @param {string} notes HTML of the notes to send.
- * @param {number} to Slide we're going to.
  */
 var displayNotes = function(notes) {
     // Set timeout to give the deck classes time to settle down. Otherwise
