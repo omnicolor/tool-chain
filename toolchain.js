@@ -3,7 +3,12 @@ $(function() {
     var notes = window.open('notes.html', 'notes',
         'menubar=no,toolbar=no,location=no,dependent=yes,height=600,width=600');
 
-    $(document).bind('deck.change', function(from, to) {
+    $(document).bind('deck.change', function(event, from, to) {
+        var $nextSlide = $('#slide-' + to);
+        if ($nextSlide.hasClass('toolchain-example') &&
+                !$('#slide-' + to + ' .container').length) {
+            $nextSlide.append($('#toolchain-example-container'));
+        }
         displayNotes(notes);
     });
     $.extend(true, $.deck.defaults, {

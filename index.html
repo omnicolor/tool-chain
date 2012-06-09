@@ -162,7 +162,7 @@
 </section>
 
 <section class="slide toolchain-example">
-    <div class="container">
+    <div class="container" id="toolchain-example-container">
         <div id="toolchain-example-coder">
             <div class="box" id="toolchain-example-tests">Tests</div>
             <div class="arrow" id="toolchain-example-test-arrow">
@@ -212,31 +212,43 @@
         </div>
         <div class="box" id="toolchain-example-production">Production</div>
         <div class="box" id="toolchain-example-production">Production</div>
-        <div class="note">
-            Here's a typical development layout.
+    </div>
+    <div class="note">
+        Here's a typical development layout.
 
-            <ul>
-                <li>Coders write their tests and code</li>
-                <li>They submit it to their source control</li>
-                <li>
-                    Continuous integration sees the changes and does its thing
-                </li>
-                <li>
-                    If it fails, it kicks it back to the coders for more testing
-                    and coding.
-                </li>
-                <li>
-                    If it passes, the new code is uploaded automagically to
-                    staging.
-                </li>
-                <li>
-                    QA runs on staging and if it blesses the build, pushes it to
-                    production.
-                </li>
-            </ul>
-        </div>
+        <ul>
+            <li>Coders write their tests and code</li>
+            <li>They submit it to their source control</li>
+            <li>
+            Continuous integration sees the changes and does its thing
+            </li>
+            <li>
+            If it fails, it kicks it back to the coders for more testing
+            and coding.
+            </li>
+            <li>
+            If it passes, the new code is uploaded automagically to
+            staging.
+            </li>
+            <li>
+            QA runs on staging and if it blesses the build, pushes it to
+            production.
+            </li>
+        </ul>
     </div>
 </section>
+
+<section class="slide toolchain-example toolchain-example-coding">
+    <div class="note">
+        The first step is writing tests and code. Other sessions spend their
+        entire time talking about these topics, so I'm not going to go into that
+        here except to say that most of this toolchain requires good tests to be
+        effective.
+    </div>
+    <div class="lightbox">&nbsp;</div>
+</section>
+
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
 </script>

@@ -46,6 +46,17 @@ body.deck-container {
     width: 700px;
 }
 
+.lightbox {
+    background-color: #222222;
+    bottom: 0;
+    left: 0;
+    opacity: 0.75;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 9;
+}
+
 /* Hide the default chain background on the title slide. */
 body.deck-container.on-slide-0 {
     background-image: none;
@@ -459,4 +470,18 @@ body.deck-container.on-slide-0 {
     background-color: gold;
     left: 12em;
     top: 12em;
+}
+
+/* Toolchain discussion about coding */
+.toolchain-example-coding {
+    background-attachment: fixed !important;
+    background-image: url(images/chain.png) !important;
+    background-position: 0 98% !important;
+    background-repeat: repeat-x !important;
+    height: 100%;
+}
+
+.toolchain-example-coding #toolchain-example-coder {
+    background-color: #ffffff;
+    z-index: 10;
 }
