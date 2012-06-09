@@ -472,8 +472,9 @@ body.deck-container.on-slide-0 {
     top: 12em;
 }
 
-/* Toolchain discussion about coding */
-.toolchain-example-coding {
+/* Toolchain discussions */
+.toolchain-example-coding,
+.toolchain-example-scm {
     background-attachment: fixed !important;
     background-image: url(images/chain.png) !important;
     background-position: 0 98% !important;
@@ -481,7 +482,9 @@ body.deck-container.on-slide-0 {
     height: 100%;
 }
 
-.toolchain-example-coding #toolchain-example-coder {
+.toolchain-example-coding #toolchain-example-coder,
+.toolchain-example-scm #toolchain-example-scm {
     background-color: #ffffff;
     z-index: 10;
 }
+
