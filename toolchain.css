@@ -29,6 +29,10 @@ body.deck-container {
     color: #235d23;
 }
 
+a,
+a:visited {
+    color: #2c1e1e !important;
+}
 
 /*
  * Title slide.
@@ -74,9 +78,17 @@ body.deck-container.on-slide-0 {
     font-size: 150%;
     height: 35px;
     position: absolute;
-    right: 119px;
-    top: 300px;
     z-index: 9;
+}
+
+.deck-container.on-slide-0 .slide #title-first-line {
+    right: 163px;
+    top: 257px;
+}
+
+.deck-container.on-slide-0 .slide #title-second-line {
+    right: 119px;
+    top: 287px;
 }
 
 .deck-container.on-slide-0 .slide h2 {
@@ -95,7 +107,7 @@ body.deck-container.on-slide-0 {
  */
 .slide.about-me div {
     margin: 2em auto;
-    width: 600px;
+    width: 700px;
 }
 
 .slide.about-me img {
@@ -105,7 +117,7 @@ body.deck-container.on-slide-0 {
 
 .slide.about-me .about {
     font-size: 120%;
-    height: 72px;
+    height: 70px;
     margin: 0;
 }
 
@@ -160,7 +172,7 @@ body.deck-container.on-slide-0 {
     position: absolte;
     left: 50%;
     margin-bottom: -31px;
-    margin-left: -33px;
+    margin-left: -19px;
     text-align: left;
     top: 54px;
     width: 200px;
@@ -199,7 +211,7 @@ body.deck-container.on-slide-0 {
     margin: 2em auto;
     overflow: hidden;
     position: relative;
-    width: 306px;
+    width: 329px;
 }
 
 .no-source-control img {
@@ -215,10 +227,10 @@ body.deck-container.on-slide-0 {
 
 #mark {
     color: #f00;
-    font-size: 2000%;
-    height: 390px;
-    margin-left: -110px;
-    margin-top: -63px;
+    font-size: 1666%;
+    height: 450px;
+    margin-left: -138px;
+    margin-top: -109px;;
     position: absolute;
     left: 50%;
     top: 0;
