@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="deck.js/themes/style/swiss.css">
     <link rel="stylesheet" href="deck.js/themes/transition/horizontal-slide.css">
     <link rel="stylesheet" href="toolchain.css">
-    <link href="http://fonts.googleapis.com/css?family=Graduate|Chau+Philomene+One" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Graduate|Chau+Philomene+One|Eater" rel="stylesheet">
     <script src="deck.js/modernizr.custom.js"></script>
 </head>
 
@@ -324,6 +324,47 @@
     </div>
 </section>
 
+<section class="slide toolchain-example toolchain-example-ci">
+    <div class="note">
+        <p>
+            Next up is your continuous integration server.
+        </p>
+
+        <p>
+            This is where most of the toolchain magic shows up. Your CI server
+            should be really strict and really demanding of code. It should run
+            all of your tests and fail the build if anything is wrong.
+        </p>
+
+        <p>
+            Remember, failure &rarr;
+        </p>
+    </div>
+    <div class="lightbox">&nbsp;</div>
+</section>
+
+<section class="slide ci-discussion failure">
+    <div id="ci-discussion-failure">failure</div>
+    <div id="ci-discussion-is-an">is an</div>
+    <div id="ci-discussion-option">option <span class="check">&#x2713;<span class="box"></span></span></div>
+    <div class="note">
+        <p>
+            is an option.
+        </p>
+        <p>
+            The philosophy is that it's better to fail here quickly than waste
+            QA's time checking a broken build on staging.
+        </p>
+    </div>
+</section>
+
+<section class="slide ci-discussion fix-this">
+    <img alt="I can fix thiz... sorta" src="images/fix-this.jpg">
+    <div class="note">
+        but if the build does break, you've got to drop everything and fix it
+        so it doesn't slow down your team.
+    </div>
+</section>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
 </script>

@@ -485,7 +485,8 @@ body.deck-container.on-slide-0 {
 
 /* Toolchain discussions */
 .toolchain-example-coding,
-.toolchain-example-scm {
+.toolchain-example-scm,
+.toolchain-example-ci {
     background-attachment: fixed !important;
     background-image: url(images/chain.png) !important;
     background-position: 0 98% !important;
@@ -494,7 +495,8 @@ body.deck-container.on-slide-0 {
 }
 
 .toolchain-example-coding #toolchain-example-coder,
-.toolchain-example-scm #toolchain-example-scm {
+.toolchain-example-scm #toolchain-example-scm,
+.toolchain-example-ci #toolchain-example-ci {
     background-color: #ffffff;
     z-index: 10;
 }
@@ -510,5 +512,43 @@ body.deck-container.on-slide-0 {
 }
 
 .source-control-discussion img {
+    margin-top: 1em;
+}
+
+.ci-discussion.failure {
+    font-family: 'Eater', cursive;
+    font-size: 400%;
+    text-align: center;
+}
+
+.ci-discussion.failure #ci-discussion-failure {
+    color: #235D23;
+}
+
+.ci-discussion.failure #ci-discussion-is-an {
+    font-size: 50%;
+}
+
+.ci-discussion.failure .check {
+    color: #234D23;
+    display: inline-block;
+    position: relative;
+}
+
+.ci-discussion.failure .box {
+    border: 3px solid #234D23;
+    display: inline-block;
+   height: 1em;
+    left: -0.125em;
+    position: absolute;
+    top: 0.5em;
+    width: 1em;
+}
+
+.ci-discussion.fix-this {
+    text-align: center;
+}
+
+.ci-discussion.fix-this img {
     margin-top: 1em;
 }
