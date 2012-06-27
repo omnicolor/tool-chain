@@ -308,9 +308,8 @@ body.deck-container.on-slide-0 {
  * Example toolchain.
  */
 .toolchain-example .container {
-    margin: 1em auto;
+    margin: 1em 0;
     position: relative;
-    width: 44em;
 }
 
 .toolchain-example .box {
@@ -358,11 +357,11 @@ body.deck-container.on-slide-0 {
 .toolchain-example #toolchain-example-coder {
     border: 2px dashed #0000cc;
     font-size: 120%;
-    left: 2em;
+    left: -1em;
     height: 7.5em;
     position: absolute;
     top: 1em;
-    width: 9.5em;
+    width: 7em;
 }
 
 .toolchain-example #toolchain-example-coder .box {
@@ -372,116 +371,116 @@ body.deck-container.on-slide-0 {
 }
 
 .toolchain-example #toolchain-example-tests {
-    left: 1em;
+    left: 0.5em;
     top: 1em;
 }
 
 .toolchain-example #toolchain-example-test-arrow {
-    left: 5.9em;
+    left: 5.3em;
     top: 2.5em;
     transform: rotate(15deg);
     -webkit-transform: rotate(15deg);
-    width: 5.2em;
+    width: 2.7em;
 }
 
 .toolchain-example #toolchain-example-code {
-    left: 2em;
+    left: 1em;
     top: 3.5em;
 }
 
 .toolchain-example #toolchain-example-code-arrow {
-    left: 7.1em;
+    left: 5.9em;
     top: 4.5em;
     transform: rotate(-15deg);
     -webkit-transform: rotate(-15deg);
-    width: 3.95em;
+    width: 2.1em;
 }
 
 .toolchain-example #toolchain-example-scm {
-    left: 13em;
+    left: 7em;
     top: 3.5em;
 }
 
 .toolchain-example #toolchain-example-scm-arrow {
-    left: 22.8em;
+    left: 15.55em;
     top: 5.5em;
     width: 2.5em;
 }
 
 #toolchain-example-ci {
-    left: 21em;
+    left: 15em;
     top: 3.5em;
 }
 
 .toolchain-example #toolchain-example-ci-fail-arrow {
-    left: 31.6em;
+    left: 24.6em;
     top: 4.2em;
     transform: rotate(-53deg);
     -webkit-transform: rotate(-53deg);
-    width: 4em;
+    width: 3em;
 }
 
 .toolchain-example #toolchain-example-ci-pass-arrow {
-    left: 31.6em;
+    left: 24.6em;
     top: 7.5em;
     transform: rotate(53deg);
     -webkit-transform: rotate(53deg);
-    width: 4em;
+    width: 3em;
 }
 
 .toolchain-example #toolchain-example-red {
     background-color: #ff9999;
-    left: 29em;
+    left: 22.5em;
     top: 1em;
 }
 
 .toolchain-example #toolchain-example-red-arrow {
-    left: 13.8em;
+    left: 7.2em;
     top: 2.5em;
     transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
-    width: 21em;
+    width: 19.85em;
 }
 
 .toolchain-example #toolchain-example-green {
     background-color: #99ff99;
-    left: 29em;
+    left: 22.5em;
     top: 6.5em;
 }
 
 .toolchain-example #toolchain-example-green-arrow {
-    left: 30.6em;
-    transform: rotate(150deg);
-    -webkit-transform: rotate(150deg);
-    top: 10.6em;
-    width: 4.5em;
+    left: 23.05em;
+    transform: rotate(126deg);
+    -webkit-transform: rotate(126deg);
+    top: 10.9em;
+    width: 5em;
 }
 
 .toolchain-example #toolchain-example-staging {
-    left: 22em;
-    top: 10em;
+    left: 17em;
+    top: 11em;
 }
 
 .toolchain-example #toolchain-example-staging-fail-arrow {
-    left: 13.3em;
+    left: 6.85em;
     transform: rotate(-160deg);
     -webkit-transform: rotate(-160deg);
     top: 11em;
-    width: 13.5em;
+    width: 14em;
 }
 
 .toolchain-example #toolchain-example-staging-pass-arrow {
-    left: 21.3em;
-    transform: rotate(153deg);
-    -webkit-transform: rotate(153deg);
+    left: 16.75em;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
     top: 14.7em;
-    width: 5.4em;
+    width: 3.7em;
 }
 
 .toolchain-example #toolchain-example-production {
     background-color: gold;
-    left: 12em;
-    top: 12em;
+    left: 8em;
+    top: 11em;
 }
 
 /* Toolchain discussions */
