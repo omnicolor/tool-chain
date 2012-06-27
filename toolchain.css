@@ -508,3 +508,7 @@ body.deck-container.on-slide-0 {
     height: 600px;
     margin-top: 1em;
 }
+
+.source-control-discussion img {
+    margin-top: 1em;
+}
