@@ -486,7 +486,8 @@ body.deck-container.on-slide-0 {
 /* Toolchain discussions */
 .toolchain-example-coding,
 .toolchain-example-scm,
-.toolchain-example-ci {
+.toolchain-example-ci,
+.toolchain-example-fail {
     background-attachment: fixed !important;
     background-image: url(images/chain.png) !important;
     background-position: 0 98% !important;
@@ -545,10 +546,22 @@ body.deck-container.on-slide-0 {
     width: 1em;
 }
 
-.ci-discussion.fix-this {
+.ci-discussion.fix-this,
+.ci-fail-discussion {
     text-align: center;
 }
 
-.ci-discussion.fix-this img {
+.ci-discussion.fix-this img,
+.ci-fail-discussion.email img {
     margin-top: 1em;
+    width: 600px;
+}
+
+.toolchain-example-fail #toolchain-example-red {
+    z-index: 10;
+}
+
+.ci-fail-discussion.indicator img {
+    margin-top: 1em;
+    width: 400px;
 }
