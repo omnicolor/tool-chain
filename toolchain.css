@@ -501,7 +501,8 @@ div.arrow .head {
 
 .source-control-discussion,
 .coding-discussion,
-.test-discussion {
+.test-discussion,
+.code-review-discussion {
     text-align: center;
     width: 100%;
 }
@@ -585,8 +586,17 @@ div.arrow .head {
 
 .coding-discussion img,
 .test-discussion img,
-.source-control-discussion img {
+.source-control-discussion img,
+.code-review-discussion img {
     margin-top: 1em;
+}
+
+.code-review-discussion img {
+    width: 600px;
+}
+
+.code-review-discussion.shame img {
+    width: 500px;
 }
 
 .ci-discussion.failure {
