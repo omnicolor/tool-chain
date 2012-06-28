@@ -46,6 +46,7 @@ a:visited {
     right: -150px;
     top: 200px;
     transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     width: 700px;
 }
@@ -175,8 +176,10 @@ body.deck-container.on-slide-0 {
     margin-left: -19px;
     text-align: left;
     top: 54px;
-    width: 200px;
+    transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
+    width: 200px;
 }
 
 #beginning {
@@ -222,6 +225,8 @@ body.deck-container.on-slide-0 {
     left: -11px;
     position: relative;
     top: -100px;
+    transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
 }
 
@@ -362,6 +367,7 @@ body.deck-container.on-slide-0 {
     left: 5.3em;
     top: 2.5em;
     transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
     -webkit-transform: rotate(15deg);
     width: 2.7em;
 }
@@ -375,6 +381,7 @@ body.deck-container.on-slide-0 {
     left: 5.9em;
     top: 4.5em;
     transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
     -webkit-transform: rotate(-15deg);
     width: 2.1em;
 }
@@ -399,6 +406,7 @@ body.deck-container.on-slide-0 {
     left: 24.6em;
     top: 4.2em;
     transform: rotate(-53deg);
+    -moz-transform: rotate(-53deg);
     -webkit-transform: rotate(-53deg);
     width: 3em;
 }
@@ -407,6 +415,7 @@ body.deck-container.on-slide-0 {
     left: 24.6em;
     top: 7.5em;
     transform: rotate(53deg);
+    -moz-transform: rotate(53deg);
     -webkit-transform: rotate(53deg);
     width: 3em;
 }
@@ -421,6 +430,7 @@ body.deck-container.on-slide-0 {
     left: 7.2em;
     top: 2.5em;
     transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
     width: 19.85em;
 }
@@ -434,6 +444,7 @@ body.deck-container.on-slide-0 {
 .toolchain-example #toolchain-example-green-arrow {
     left: 23.05em;
     transform: rotate(126deg);
+    -moz-transform: rotate(126deg);
     -webkit-transform: rotate(126deg);
     top: 10.9em;
     width: 5em;
@@ -447,6 +458,7 @@ body.deck-container.on-slide-0 {
 .toolchain-example #toolchain-example-staging-fail-arrow {
     left: 6.85em;
     transform: rotate(-160deg);
+    -moz-transform: rotate(-160deg);
     -webkit-transform: rotate(-160deg);
     top: 11em;
     width: 14em;
@@ -455,6 +467,7 @@ body.deck-container.on-slide-0 {
 .toolchain-example #toolchain-example-staging-pass-arrow {
     left: 16.75em;
     transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
     -webkit-transform: rotate(180deg);
     top: 14.7em;
     width: 3.7em;
