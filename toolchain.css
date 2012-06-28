@@ -299,7 +299,8 @@ body.deck-container.on-slide-0 {
     position: relative;
 }
 
-.toolchain-example .box {
+.toolchain-example .box,
+.test-discussion .box {
     border: 1px solid #000000;
     border-radius: 5px;
     font-size: 120%;
@@ -314,7 +315,7 @@ body.deck-container.on-slide-0 {
     padding-top: 0.33em;
 }
 
-.toolchain-example div.arrow {
+div.arrow {
     border-radius: 0;
     height: 15px;
     padding: 0;
@@ -322,14 +323,14 @@ body.deck-container.on-slide-0 {
     width: 3em;
 }
 
-.toolchain-example div.arrow .tail {
+div.arrow .tail {
     border-top: 1px solid #000000;
     position: absolute;
     top: 7px;
     width: 100%;
 }
 
-.toolchain-example div.arrow .head {
+div.arrow .head {
     border-bottom: 7px solid transparent;
     border-left: 14px solid #000000;
     border-top: 7px solid transparent;
@@ -499,7 +500,8 @@ body.deck-container.on-slide-0 {
 }
 
 .source-control-discussion,
-.coding-discussion {
+.coding-discussion,
+.test-discussion {
     text-align: center;
     width: 100%;
 }
@@ -526,12 +528,63 @@ body.deck-container.on-slide-0 {
     margin-left: 2em;
 }
 
+/* Unit testing discussion. */
+.test-discussion .tdd-red {
+    background-color: #ff9999;
+    margin-left: -3em;
+    left: 50%;
+    top: 2em;
+}
+
+.test-discussion #tdd-red-arrow {
+    left: 50%;
+    top: 8.2em;
+    transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    width: 7em;
+}
+
+.test-discussion .tdd-green {
+    background-color: #99ff99;
+    margin-left: 4em;
+    left: 50%;
+    top: 9em;
+}
+
+.test-discussion #tdd-green-arrow {
+    left: 50%;
+    margin-left: -4.85em;
+    top: 12em;
+    transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    width: 9.65em;
+}
+
+.test-discussion .tdd-refactor {
+    margin-left: -10em;
+    left: 50%;
+    top: 9em;
+}
+
+.test-discussion #tdd-refactor-arrow {
+    left: 50%;
+    margin-left: -7em;
+    top: 8.15em;
+    transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    width: 6.85em;
+}
+
 #filing-cabinet {
     height: 600px;
     margin-top: 1em;
 }
 
 .coding-discussion img,
+.test-discussion img,
 .source-control-discussion img {
     margin-top: 1em;
 }
