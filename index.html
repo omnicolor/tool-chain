@@ -406,11 +406,61 @@
 </section>
 
 <section class="slide ci-fail-discussion indicator">
-    <img alt="build indicator" src="images/build-indicator.jpg">
+<img alt="build indicator" src="images/build-fail.png">
     <div class="note">
         ... of an external build indicator.
     </div>
 </section>
+
+<section class="slide toolchain-example toolchain-example-pass">
+    <div class="note">
+        If the build passes, there's not a whole lot you that it *needs* to do.
+    </div>
+    <div class="lightbox">&nbsp;</div>
+</section>
+
+<section class="slide ci-pass-discussion indicator">
+    <img alt="Build indicator" src="images/build-indicator.jpg">
+    <div class="note">
+        You *need* to update the build indicator if you have one.
+    </div>
+</section>
+
+<section class="slide toolchain-example toolchain-example-pass">
+    <div class="note">
+        But there are some steps you *can* do.
+    </div>
+    <div class="lightbox">&nbsp;</div>
+</section>
+
+<section class="slide ci-pass-discussion">
+    <img alt="papers everywhere" src="images/documentation.jpg">
+    <div class="note">
+        build documentation
+    </div>
+</section>
+
+<section class="slide ci-pass-discussion">
+    <img alt="Test all the things!" src="images/test-all-the-things.jpg">
+    <div class="note">
+        run code coverage if your build doesn't fail for falling code coverage
+        percent.
+    </div>
+</section>
+
+<section class="slide ci-pass-discussion">
+    <img alt="one more level" src="images/one-more-level.jpg">
+    <div class="note">
+        <p>
+            If you have a multiple stage integration pipeline you can fire off
+            the next level.
+        </p>
+        <p>
+            Smoke tests, unit tests, then integration tests.
+        </p>
+    </div>
+</section>
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
 </script>
