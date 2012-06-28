@@ -252,12 +252,17 @@ body.deck-container.on-slide-0 {
 /*
  * No unit tests slide.
  */
-.no-unit-tests {
+.no-unit-tests,
+.integration-test,
+.smoke-test {
     text-align: center;
 }
 
-.no-unit-tests img {
-    margin: 2em auto;
+.no-unit-tests img,
+.integration-test img,
+.smoke-test img {
+    margin: 1em auto;
+    width: 600px;
 }
 
 /*
