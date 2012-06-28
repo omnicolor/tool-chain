@@ -484,7 +484,8 @@ div.arrow .head {
 .toolchain-example-scm,
 .toolchain-example-ci,
 .toolchain-example-fail,
-.toolchain-example-pass {
+.toolchain-example-pass,
+.toolchain-example-staging {
     background-attachment: fixed !important;
     background-image: url(images/chain.png) !important;
     background-position: 0 98% !important;
@@ -663,4 +664,17 @@ div.arrow .head {
 .ci-pass-discussion img {
     margin-top: 1em;
     width: 600px;
+}
+
+.toolchain-example-staging #toolchain-example-staging {
+    background-color: #ffffff;
+    z-index: 10;
+}
+
+.staging-discussion {
+    text-align: center;
+}
+
+.staging-discussion img {
+    margin-top: 1em;
 }
