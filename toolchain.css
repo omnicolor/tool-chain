@@ -288,28 +288,6 @@ body.deck-container.on-slide-0 {
 }
 
 /*
- * Ninja slide.
- */
-.ninja {
-    text-align: center;
-}
-
-.ninja img {
-    margin: 2em auto;
-}
-
-/*
- * Baby ninja.
- */
-.baby-ninja {
-    text-align: center;
-}
-
-.baby-ninja img {
-    margin: 2em auto;
-}
-
-/*
  * Example toolchain.
  */
 .toolchain-example .container {
