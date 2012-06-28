@@ -486,9 +486,32 @@ body.deck-container.on-slide-0 {
     z-index: 10;
 }
 
-.source-control-discussion {
+.source-control-discussion,
+.coding-discussion {
     text-align: center;
     width: 100%;
+}
+
+/* Coding and editor discussion */
+.coding-discussion.ask-friends {
+    font-family: 'Concert One';
+    font-size: 400%;
+}
+
+.coding-discussion .ask {
+    color: #235D23;
+    opacity: 1 !important;
+}
+
+.coding-discussion .your {
+    color: #C6D5B0;
+    margin-left: -2em;
+    opacity: 1 !important;
+}
+
+.coding-discussion .friends {
+    color: #DFFF6D;
+    margin-left: 2em;
 }
 
 #filing-cabinet {
@@ -496,6 +519,7 @@ body.deck-container.on-slide-0 {
     margin-top: 1em;
 }
 
+.coding-discussion img,
 .source-control-discussion img {
     margin-top: 1em;
 }
