@@ -1,7 +1,7 @@
 $(function() {
     $.deck('.slide');
     var notes = window.open('notes.html', 'notes',
-        'menubar=no,toolbar=no,location=no,dependent=yes,height=600,width=600');
+        'menubar=no,toolbar=no,location=no,dependent=yes,height=800,width=1200');
 
     $(document).bind('deck.change', function(event, from, to) {
         var $nextSlide = $('#slide-' + to);
