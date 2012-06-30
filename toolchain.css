@@ -678,3 +678,35 @@ div.arrow .head {
 .staging-discussion img {
     margin-top: 1em;
 }
+
+/* Deployment script slides */
+.deploy-script-discussion {
+    text-align: center;
+}
+
+.deploy-script-discussion img {
+    margin-top: 1em;
+}
+
+.deploy-script-discussion.laziness {
+    font-family: 'Mr Dafoe';
+    font-size: 400%;
+}
+
+.deploy-script-discussion #laziness {
+    margin-top: 1em;
+    color: #235D23;
+}
+
+.deploy-script-discussion #virtue {
+    color: #DFFF6D;
+}
+
+.deploy-script-discussion .really-lazy {
+    font-size: 400%;
+    margin-top: 1em;
+}
+
+.deploy-script-discussion.hard-part img {
+    width: 600px;
+}
