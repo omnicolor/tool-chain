@@ -1,5 +1,6 @@
 $(function() {
     $.deck('.slide');
+    /*
     var notes = window.open('notes.html', 'notes',
         'menubar=no,toolbar=no,location=no,dependent=yes,height=800,width=1200');
 
@@ -11,6 +12,7 @@ $(function() {
         }
         displayNotes(notes);
     });
+    */
     $.extend(true, $.deck.defaults, {
         hashPrefix: 'slide-',
         preventFragmentScroll: true
